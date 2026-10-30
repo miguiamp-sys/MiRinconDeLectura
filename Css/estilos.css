@@ -2,7 +2,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #faf8f3;
-    color: #037425;
+    color: #263c59;
     margin: 0;
 }
 
@@ -22,7 +22,7 @@ p {
 
 /*CABECERA*/
 #cabecera {
-    background-color: #a31f08ee;
+    background-color: #263c59;
     color: white;
     text-align: center;
     padding: 25px;
