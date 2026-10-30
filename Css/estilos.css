@@ -2,7 +2,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #faf8f3;
-    color: #594126;
+    color: #263c59;
     margin: 0;
 }
 
@@ -21,8 +21,17 @@ p {
 
 
 /*CABECERA*/
+#logo {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.identidad {
+    display: flex;
+}
+
 #cabecera {
-    background-color: #3f0583;
+    background-color: #263c59;
     color: white;
     text-align: center;
     padding: 25px;
@@ -40,6 +49,8 @@ p {
 /*NAVEGADOR*/
 nav {
     margin-top: 20px;
+    align-self: flex-end;
+    text-align: right;
 }
 
 nav a {
@@ -64,6 +75,7 @@ nav a.activo {
 #inicio {
     padding: 20px;
     background-color: white;
+    display: flex;
 }
 
 #inicio img {
@@ -84,9 +96,9 @@ nav a.activo {
 #generos {
     background-color: #e8f2fb;
     padding: 20px;
-    text-align: center;
+;
 }
-
+.icono{width: 150px;}
 .genero {
     display: inline-block;
     vertical-align: top;
