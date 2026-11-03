@@ -96,9 +96,13 @@ nav a.activo {
 #generos {
     background-color: #e8f2fb;
     padding: 20px;
-;
+    ;
 }
-.icono{width: 150px;}
+
+.icono {
+    width: 150px;
+}
+
 .genero {
     display: inline-block;
     vertical-align: top;
@@ -181,6 +185,10 @@ footer {
     color: white;
     text-align: center;
     padding: 15px;
+}
+.iconofooter {
+    width: 50px;
+    align-items: left;
 }
 
 footer a {
