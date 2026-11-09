@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contenedor {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+           
+        }
+
+        .caja {
+            padding: 10px;
+            text-align: center;
+            width: 200px;
+        }
+
+        .roja {
+            background-color: red;
+        }
+
+        .azul {
+            background-color: blue;
+        }
+
+        .verde {
+            background-color: green;
+        }
+
+        .amarillo {
+            background-color: yellow;
+        }
+
+        .morado {
+            background-color: rebeccapurple;
+        }
+
+        .rosa {
+            background-color: pink;
+        }
+
+        .pagina {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-template-areas: "cabecera cabecera"
+                "contenido lateral"
+                "pie pie";
+            gap: 15px;
+        }
+
+        header {
+            grid-area: cabecera;
+            background-color: lightblue;
+        }
+
+        main {
+            grid-area: contenido;
+            background-color: lightgreen;
+            min-height: 200px;
+        }
+
+        aside {
+            grid-area: lateral;
+            background-color: lightyellow;
+        }
+
+        footer {
+            grid-area: pie;
+            background-color: lavender;
+        } .img {width: 100%;}
+    </style>
+</head>
+
+<body>
+    <div class="pagina">
+        <header>Cabecera</header>
+        <main>
+            <h2>Contenido principal</h2>
+            <p>Aquí aparecería el contenido de nuestra web.</p>
+        </main>
+        <aside>Barra lateral</aside>
+        <footer>Chao pescao</footer>
+    </div>
+    <div class="contenedor">
+        <div class="caja roja"><img src="Img/Harry-Potter y la piedra filosofal.jpg" class="img"></div>
+        <div class="caja azul"><img src="Img/Harry-Potter.jpg" class="img"></div>
+        <div class="caja verde"><img src="Img/La-historia-interminable.jpg" class="img"></div>
+        <div class="caja amarillo"><img src="Img/Principito.jpg" class="img"></div>
+        <div class="caja morado"><img src="Img/sherlock.jpg" class="img"></div>
+        <div class="caja rosa"><img src="Img/lanoche.jpg" class="img"></div>
+
+    </div>
+</body>
+
+</html>
